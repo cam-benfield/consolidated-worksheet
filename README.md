@@ -22,6 +22,13 @@ Built with
     Rails v. 5.1.6.1
     Bundler v. 2.0.1
     NodeJS v. 10.15.3
+# Ideas/Goals
+
+Allow upload of PDFs (only PDFs)
+Convert PDFs to CSV
+Read and consolidate CSV
+Convert CSV to PDF
+Output CSV, PDF, TXT, and other relevant filetypes.
 
 # Beyond this point is still draft status
 
