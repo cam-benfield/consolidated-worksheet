@@ -61,7 +61,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.12.2)
+    coffee-script-source (1.8.0)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
     erubi (1.8.0)
@@ -116,6 +116,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_layout (1.0.42)
     railties (5.1.6.1)
       actionpack (= 5.1.6.1)
       activesupport (= 5.1.6.1)
@@ -181,10 +182,12 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  coffee-script-source (~> 1.8.0)
   jbuilder (~> 2.5)
   pdf-reader
   puma (~> 3.7)
   rails (~> 5.1.6, >= 5.1.6.1)
+  rails_layout
   sass-rails (~> 5.0)
   selenium-webdriver
   sqlite3
@@ -194,4 +197,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.15.3
+   2.0.1
