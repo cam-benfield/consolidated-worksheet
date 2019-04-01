@@ -14,7 +14,7 @@ header {
   -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 ul.nav li {
   display: inline;
@@ -47,4 +47,3 @@ ul.nav li a {
   border-color: #eed3d7;
   color: #b94a48;
 }
-

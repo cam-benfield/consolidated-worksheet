@@ -1,1 +1,37 @@
-<h1>Website Consolidator</h1>
+<% content_for :title do %>Production Worksheet Consolidator<% end %>
+<% content_for :description do %>A production worksheet consolidator for the decoration industry<% end %>
+
+<% if !flash[:notice].blank? %>
+   <div class = "alert alert-info">
+      <%= flash[:notice] %>
+   </div>
+<% end %>
+
+<br />
+
+<%= link_to "New worksheet", new_worksheet_path, class: "btn btn-primary" %>
+<br />
+<br />
+
+<table class = "table table-bordered table-striped">
+   <thead>.
+      <tr>
+         <th>Name</th>
+         <th>Download Link</th>
+         <th> </th>
+      </tr>
+   </thead>
+
+   <tbody>
+      <% @worksheets.each do |worksheet| %>
+
+         <tr>
+            <td><%= worksheet.name %></td>
+            <td><%= link_to "Download worksheet", worksheet.attachment_url %></td>
+            <td><%= button_to "Delete",  worksheet, method: :delete, class: "btn btn-danger", confirm: "Are you sure that you wish to delete #{worksheet.name}?" %></td>
+         </tr>
+
+      <% end %>
+   </tbody>
+
+</table>

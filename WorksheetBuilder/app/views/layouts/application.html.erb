@@ -10,11 +10,14 @@
   </head>
   <body>
     <header>
+      <h1> Worksheet Consolidator</h1>
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+      <div class = "container" style = "padding-top:20px;">
+        <%= render 'layouts/messages' %>
+        <%= yield %>
+      </div>
     </main>
   </body>
 </html>
