@@ -14,6 +14,8 @@ Resources used:
   - http://railsapps.github.io/rails-default-application-layout.html
   - https://www.tutorialspoint.com/ruby-on-rails/rails-controllers.htm
   - https://medium.com/@deallen7/ruby-on-rails-app-build-blog-3d9975a999ae
+  - https://stackoverflow.com/questions/14174044/uploading-a-file-in-rails
+  - https://www.tutorialspoint.com/ruby-on-rails/rails-file-uploading.htm
 
 Bug fixes:
   https://www.pixelstech.net/article/1476434897-Resolve-stylesheet_link_tag-fails-to-work-in-Ruby-on-Rails
