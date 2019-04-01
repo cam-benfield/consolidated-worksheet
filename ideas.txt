@@ -1,0 +1,20 @@
+Page Structure:
+  Home
+  About
+  How-to
+    Set up your Template
+    Upload your file
+    Read your file
+
+Special Thanks to:
+ - https://www.theodinproject.com
+
+Resources used:
+  - https://www.realifewebdesigns.com/web-programming/rubyonrails/gem-bundler.asp
+  - http://railsapps.github.io/rails-default-application-layout.html
+  - https://www.tutorialspoint.com/ruby-on-rails/rails-controllers.htm
+  - https://medium.com/@deallen7/ruby-on-rails-app-build-blog-3d9975a999ae
+
+Bug fixes:
+  https://www.pixelstech.net/article/1476434897-Resolve-stylesheet_link_tag-fails-to-work-in-Ruby-on-Rails
+  https://github.com/RailsApps/rails_layout
